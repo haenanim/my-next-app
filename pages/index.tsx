@@ -18,7 +18,7 @@ const Home = ({
   }[];
 }) => {
   return (
-    <>
+    <div className={styles.container}>
       <Head>
         <title>Haein</title>
       </Head>
@@ -38,7 +38,7 @@ const Home = ({
           ))}
         </ul>
       </section>
-    </>
+    </div>
   );
 };
 
